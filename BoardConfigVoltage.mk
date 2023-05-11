@@ -26,7 +26,7 @@ BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(filter $(BOOT_KERNEL_MODULES), $(K
 
 # Manifests
 DEVICE_MANIFEST_FILE += device/google/redbull/lineage_manifest.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/redbull/device_framework_matrix.xml
 
 # Needed for camera
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
