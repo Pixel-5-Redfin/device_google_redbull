@@ -48,8 +48,8 @@ BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 92160000
 endif
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-voltage/dynamic
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-voltage/vendor
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
